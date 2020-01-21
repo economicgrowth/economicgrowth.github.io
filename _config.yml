@@ -1,5 +1,6 @@
 name: GIS for Applied Economics - Juan Carlos Muñoz-Mora
 highlighter: rouge
+future: false
 
 collections:
   events:
