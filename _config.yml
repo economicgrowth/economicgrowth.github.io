@@ -1,2 +1,8 @@
 name: GIS for Applied Economics - Juan Carlos Muñoz-Mora
 highlighter: rouge
+
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    title: Events

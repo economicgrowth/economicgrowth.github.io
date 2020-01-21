@@ -4,7 +4,7 @@
   </div>
   <div id="post-info">
  <!--    <div id="cover-photo-container">
-      <img id="cover-photo" src="/images/{{ page.cover }}" style='height: 100%; width: 100%; object-fit: contain'> 
+      <img id="cover-photo" src="/images/{{ page.cover }}" style='height: 100%; width: 100%; object-fit: contain'>
     </div> -->
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
@@ -15,10 +15,19 @@
   <div class="post">
     {{ content }}
   </div>
+
+  <div class="span3">
+ <div id="upcoming"></div><!--/span-->
+ </div>
+ <div class="span9">
+ 	<h3>Calendar of Upcoming Events</h3>
+ 	<iframe src="https://calendar.google.com/calendar/embed?src=sk6t28g7vnvhg974lbleiallj0%40group.calendar.google.com&ctz=America%2FBogota" style=" border-width:0 " width="60%" height="600" frameborder="0" scrolling="no"></iframe>
+ </div><!--/span-->
+
   <div class="colophon">
     <p>
-      <span id="pub-date">Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
-      <span id="social">Find me on <a href="">Twitter</a>!</span>
+      <span id="pub-date">Juan Carlos Muñoz-Mora - OFFICE: 26-902 (By appoitment) - Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
+      <span id="social">Find me on <a href="https://twitter.com/jcmunozmora">Twitter</a>! </span>
     </p>
   </div>
 </div>
